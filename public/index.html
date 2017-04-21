@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <title>Drawing App</title>
+      <meta charset="utf-8">
+      <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+      <link href="https://fonts.googleapis.com/css?family=Inconsolata" rel="stylesheet">
+      <link rel="stylesheet" href="style.css" />
+      <script src="socket.io/socket.io.js"></script>
+      <script src="client.js"></script>
+   </head>
+   <body>
+      <canvas id="drawing"></canvas>
+      <a href="#" id="save_image" class="button" target="_blank" download="my-canvas-image.jpg">
+         Save your drawing!!
+      </a>
+      <button name="reset" id="reset">Reset the canvas.</button>
+   </body>
+</html>

@@ -1,0 +1,9 @@
+{
+	"name": "drawing-app",
+	"description": "An interactive drawing app for collaboration",
+	"author": "Chibuzo Uguru",
+	"dependencies": {
+		"express": "4.x",
+		"socket.io": "*"
+	}
+}
